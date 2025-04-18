@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcycling Ideas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        nav ul li a:hover {
+            color: #000;
+        }
+
+        .hero {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: right;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5em;
+            line-height: 1.2;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        .hero-text p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .save-article {
+            display: flex;
+            align-items: center;
+            color: #555;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+
+        .save-article svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            fill: currentColor;
+        }
+
+        /* Placeholder for the icon - you'd typically use an actual SVG */
+        .save-article::before {
+            content: '\2713'; /* Checkmark symbol as a placeholder */
+            margin-right: 5px;
+        }
+
+        .sub-navigation {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .sub-navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .sub-navigation ul li {
+            margin-right: 15px;
+        }
+
+        .sub-navigation ul li a {
+            text-decoration: none;
+            color: #777;
+            font-size: 0.85em;
+        }
+
+        .sub-navigation ul li a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">GOOD HOUSEKEEPING</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Product Reviews</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Holidays</a></li>
+                    <li><a href="#">sign in</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="sub-navigation">
+            <ul>
+                <li><a href="#">Winter Caption Inspo</a></li>
+                <li><a href="#">Thoughtful V-Day Gifts</a></li>
+                <li><a href="#">V-Day Gifts For Kids</a></li>
+                <li><a href="#">The Best Mattresses</a></li>
+                <li><a href="#">How We Test</a></li>
+            </ul>
+        </div>
+
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Useful and Easy Upcycling Ideas for Every Skill Level</h1>
+                <p>From thrifted furniture to empty plastic containers, we're creating bold styles (and saving serious $$$).</p>
+                <div class="save-article">
+                    <span>Save Article</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x350" alt="Hanging Glass Vases">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
